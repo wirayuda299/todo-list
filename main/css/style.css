@@ -1,0 +1,47 @@
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+}
+.fa-square-plus {
+  font-size: 3rem;
+  padding: 5px;
+}
+.list-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  transition: all 1s ease-in;
+}
+.list-group-item {
+  box-shadow: 1px 1px 2px #000;
+  margin: 12px 5px;
+  overflow: auto;
+  padding: 5px;
+  border: 0.1px solid #000;
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+.fa-trash,
+.fa-square-check,
+.fa-file-pen {
+  font-size: 1.6rem;
+  margin: 0 10px;
+  float: right;
+}
+#search-field {
+  border-radius: 3px;
+  padding: 3px;
+}
+#search-field::placeholder {
+  font-size: 0.8rem;
+}
+#search-field:focus {
+  border: none;
+  outline: none;
+}
